@@ -17,7 +17,7 @@ jobs:
     - name: Use Node.js 12
       uses: actions/setup-node@v1
       with:
-        node-version: 12.z
+        node-version: 12.x
     - run: npm i
     - run: npm run build --if-present
     - run: npm test
